@@ -4,7 +4,7 @@
 
 I’m an AI Engineer at **Rampy**, where I work directly with three founders to turn ideas into production features across AI, fintech and blockchain integrations, web, mobile, and backend systems. I build agents and GraphRAG solutions alongside the product engineering that makes them useful: clear architecture, reusable interfaces, testing, observability, and security.
 
-My work spans enterprise software and customer-facing products. At Rampy, I’ve rebuilt backend and frontend architecture, shipped a complete design system, and improved mobile startup performance. I’m also developing and expanding the enterprise backoffice for application management, monitoring, telemetry, and status, while improving delivery workflows.
+My work spans enterprise software and customer-facing products. At Rampy, I’ve rebuilt backend and frontend architecture, shipped a complete design system, and improved mobile startup performance. I built the enterprise backoffice for application management, monitoring, telemetry, and status, and continue to expand its capabilities while improving delivery workflows.
 
 I enjoy breaking complex problems into manageable steps, discussing alternatives with a team, and building solutions from requirements through deployment. I’m open to **100% remote AI engineering, backend, and full-stack opportunities**, and available for interviews.
 
@@ -13,7 +13,7 @@ I enjoy breaking complex problems into manageable steps, discussing alternatives
 ## Selected work
 
 - **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Production AI and product engineering across web, mobile, and fintech integrations. Reduced observed average mobile app startup from about **7–8 seconds to 1–2 seconds**.
-- **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to a production historical load of **20M+ promotions** through event-driven ingestion and microservices. Built a merchant-facing GraphRAG agent and evaluation harness connected to the portal’s Spring WebFlux BFF.
+- **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to a production historical load of **20M+ promotions** through event-driven ingestion and microservices. Built the merchant-facing Promotion Assistance System, connected to the portal’s Spring WebFlux BFF, with GraphRAG and an internal harness for agent orchestration and evaluation.
 - **[Cooperativa Obrera](https://gonzalomartinperez.com/work#cooperativa-obrera)** — Built a permissions backoffice integrating **10+ enterprise systems**, replacing a roughly **10-minute manual lookup** with an automated workflow taking **under 10 seconds**.
 - **[Filomena](https://gonzalomartinperez.com/work/filomena)** — Principal author and contributor in a **three-person team** building an exam platform used by **five Argentine national institutions**. The project also completed my Information Systems Engineering degree at Universidad Nacional del Sur.
 
