@@ -19,7 +19,7 @@ Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · Engl
 
 ## Engineering toolkit
 
-A selection from my professional work, projects, and broader hands-on experience. [Explore the full stack and its project evidence →](https://gonzalomartinperez.com/stack)
+A selection from my professional work, projects, and broader hands-on experience. [Explore the full stack and its project evidence](https://gonzalomartinperez.com/stack)
 
 **AI & agents**
 
