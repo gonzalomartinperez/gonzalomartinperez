@@ -12,7 +12,7 @@ Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · Engl
 
 ## Selected work
 
-- **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Built and optimized production AI agents with Neo4j GraphRAG; modernized backend and frontend architecture and built a complete design system. Cut **measured average mobile startup from about 7–8 seconds to 1–2 seconds**.
+- **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Built production AI agents with Neo4j GraphRAG: optimized flows ran **at least 2× faster by my estimate**, while removing redundant calls reduced token usage by **an estimated 30% in affected queries**. Reduced comparable vault, market, and perpetual query times **from seconds to milliseconds** using parallel calls, prefetching, and Redis caching.
 - **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to event-driven ingestion of **20M+ historical promotions in production** across Python, Java, and Node.js services. Built a merchant-facing GraphRAG assistant with evaluation and data-leakage guardrails; worked with PostgreSQL and MongoDB.
 - **[Cooperativa Obrera](https://gonzalomartinperez.com/work#cooperativa-obrera)** — Designed and built a permissions backoffice integrating **10+ enterprise systems**, turning a roughly **10-minute manual lookup into an automated workflow taking under 10 seconds**.
 - **[Filomena](https://gonzalomartinperez.com/work/filomena)** — Principal author and contributor in a **three-person team** building an exam platform used by **five Argentine national institutions**. Led architecture, backend, frontend, and infrastructure; the project completed my Information Systems Engineering degree at Universidad Nacional del Sur.
