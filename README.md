@@ -6,7 +6,7 @@ I build AI agents, distributed backends, and web and mobile products—from unde
 
 Currently an **AI Engineer at Rampy**, I work directly with three founders on production AI, fintech, and blockchain features. My experience also spans enterprise integrations at Teamcubation / Payway and Cooperativa Obrera, institutional software, and independent digital products.
 
-**[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [English CV](https://gonzalomartinperez.com/gonzalo-martin-perez-ai-software-engineer-en.pdf) · [CV en español](https://gonzalomartinperez.com/gonzalo-martin-perez-ai-software-engineer-es.pdf)**
+**[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [English CV](https://gonzalomartinperez.com/cv) · [CV en español](https://gonzalomartinperez.com/es/cv)**
 
 Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · English: professional working proficiency (B2)
 
