@@ -37,13 +37,13 @@ A selection from my professional work, projects, and broader hands-on experience
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F4F5F7?style=flat-square&logo=postgresql) ![MongoDB](https://img.shields.io/badge/MongoDB-F4F5F7?style=flat-square&logo=mongodb) ![MySQL](https://img.shields.io/badge/MySQL-F4F5F7?style=flat-square&logo=mysql) ![Redis](https://img.shields.io/badge/Redis-F4F5F7?style=flat-square&logo=redis)
 
-**Delivery & observability**
+**Cloud, delivery & observability**
 
-![Docker](https://img.shields.io/badge/Docker-F4F5F7?style=flat-square&logo=docker) ![Kubernetes](https://img.shields.io/badge/Kubernetes-F4F5F7?style=flat-square&logo=kubernetes) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-F4F5F7?style=flat-square&logo=digitalocean) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-F4F5F7?style=flat-square&logo=githubactions) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F4F5F7?style=flat-square&logo=opentelemetry&logoColor=000000) ![Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) ![Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana)
+![Docker](https://img.shields.io/badge/Docker-F4F5F7?style=flat-square&logo=docker) ![Kubernetes](https://img.shields.io/badge/Kubernetes-F4F5F7?style=flat-square&logo=kubernetes) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-F4F5F7?style=flat-square&logo=digitalocean) ![Coolify](https://img.shields.io/badge/Coolify-F4F5F7?style=flat-square&logo=coolify&logoColor=6B16ED) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-F4F5F7?style=flat-square&logo=githubactions) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F4F5F7?style=flat-square&logo=opentelemetry&logoColor=000000) ![Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) ![Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana)
 
 **Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings and chunking; AI testing, evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
 
-**Production engineering:** Hexagonal, layered, and event-driven architecture; REST APIs and BFFs; design systems; SQL tuning; AWS Lambda, S3, SQS, and API Gateway; CI/CD, access control, and end-to-end encryption.
+**Production engineering:** Hexagonal, layered, and event-driven architecture; REST APIs and BFFs; design systems; SQL tuning; AWS Lambda, S3, SQS, and API Gateway; CI/CD, access control, and end-to-end encryption. My broader infrastructure experience also includes Coolify and reverse proxies.
 
 **Fintech integrations:** Morpho, Aave, Compound, Hyperliquid, LI.FI, Privy, and Stripe—across product interfaces, backend services, wallets, and transaction flows.
 
