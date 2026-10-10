@@ -6,7 +6,7 @@
 
 Its artwork, colors, and proportions are preserved inside a locally authored badge. The icon was copied from the reviewed public portfolio asset. Java and other technology names and marks belong to their respective owners; their use identifies engineering tools and does not imply endorsement.
 
-Other README badges are served by [Shields.io](https://shields.io/) using its available Simple Icons logos and brand colors. Explicit brand colors prevent white fallback glyphs from disappearing on light badges; light blue marks use a dark background. They are not vendored here.
+Other README badges are served by [Shields.io](https://shields.io/) using its available Simple Icons logos and brand colors. Explicit brand colors prevent white fallback glyphs from disappearing on light badges; light blue marks use a dark background. They are not vendored here. The OpenTelemetry mark is credited to the OpenTelemetry project / CNCF, from [CNCF brand resources](https://cncf-branding.netlify.app/projects/opentelemetry/), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), as recorded by Simple Icons. The badge displays its monochrome glyph in black.
 
 ## Devicon license
 
