@@ -23,3 +23,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Product architecture diagrams
+
+The product architecture artwork is an original conceptual summary of patterns across Gonzalo's projects, not a deployment diagram for any employer. The SVGs are generated locally with [Mermaid 10.9.3](https://github.com/mermaid-js/mermaid/tree/v10.9.3), distributed under the [MIT license](https://github.com/mermaid-js/mermaid/blob/v10.9.3/LICENSE). No employer diagrams or private implementation materials are embedded.
+
+- `product-architecture.mmd`: full seven-node source with three visual layers.
+- `product-architecture-compact.mmd`: the same capabilities grouped into four compact layers for narrow screens.
+- `product-architecture.config.json`: renderer options and portfolio-based dark/light colors.
+- `product-architecture-{dark,light}.svg` and `product-architecture-compact-{dark,light}.svg`: reviewed static vector outputs.
+
+Rendering uses strict Mermaid security, SVG text labels (`htmlLabels: false`), Arial/Helvetica fallback fonts, and the recorded spacing/curve settings. Generated node corners are rounded to 14 px and group/canvas corners to 20 px. Titles use weight 700 and details weight 500; full-view node titles are 18 px with 14 px secondary details, compact titles are 16 px. Layer headings are 14 px with background plates to keep connectors from crossing their text. These presentation settings are recorded in the config. Outputs include a title and description and contain no scripts, `foreignObject`, external resources, or interactive handlers. The README uses [GitHub-supported picture/media theme selection](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images); a static light image and a text overview provide fallbacks.

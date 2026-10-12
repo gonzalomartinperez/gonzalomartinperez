@@ -1,0 +1,8 @@
+flowchart TB
+    UX("PRODUCT EXPERIENCE<br/>Web · Mobile · Backoffice")
+    APP("APPLICATION · INTELLIGENCE<br/>APIs · BFFs · Domain services<br/>AI agents · RAG / GraphRAG<br/>Contracts · Access control")
+    DATA("DATA · CONTEXT<br/>Vector search · Knowledge graphs<br/>Databases · Events · Fintech")
+    OPS("PRODUCTION DELIVERY<br/>CI/CD · Observability · Evaluation")
+    UX --> APP
+    APP --> DATA
+    DATA -.-> OPS

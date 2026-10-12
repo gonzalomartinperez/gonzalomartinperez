@@ -1,0 +1,22 @@
+flowchart TB
+    subgraph EXPERIENCE["01 · PRODUCT EXPERIENCE"]
+        UX("Web · Mobile · Backoffice<br/>User-facing experiences")
+    end
+    subgraph APPLICATION["02 · APPLICATION · INTELLIGENCE"]
+        API("APIs · BFFs<br/>Contracts · Access control")
+        AI("Agent systems<br/>Orchestration · RAG / GraphRAG")
+        SERVICES("Domain services<br/>Business rules · Integrations")
+    end
+    subgraph FOUNDATION["03 · DATA · PRODUCTION"]
+        CONTEXT("AI context · Memory<br/>Vector search · Knowledge graphs")
+        DATA("Data · External providers<br/>Databases · Events · Fintech")
+        OPS("Production delivery<br/>CI/CD · Observability · Evaluation")
+    end
+    UX --> API
+    API --> AI
+    API --> SERVICES
+    AI --> CONTEXT
+    AI --> SERVICES
+    SERVICES --> DATA
+    CONTEXT -.-> OPS
+    DATA -.-> OPS
