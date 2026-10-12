@@ -1,0 +1,61 @@
+{
+  "renderer": "Mermaid 10.9.3",
+  "base": {
+    "startOnLoad": false,
+    "securityLevel": "strict",
+    "theme": "base",
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": 18,
+    "flowchart": {
+      "htmlLabels": false,
+      "useMaxWidth": true,
+      "nodeSpacing": 56,
+      "rankSpacing": 58,
+      "padding": 36,
+      "curve": "basis"
+    }
+  },
+  "themes": {
+    "dark": {
+      "background": "#05070a",
+      "primaryColor": "#0d0f14",
+      "primaryTextColor": "#e8edf4",
+      "primaryBorderColor": "#2ba8cc",
+      "lineColor": "#4cd6ff",
+      "secondaryColor": "#12151b",
+      "tertiaryColor": "#05070a",
+      "clusterBkg": "#05070a",
+      "clusterBorder": "#1b2430",
+      "titleColor": "#4cd6ff",
+      "edgeLabelBackground": "#05070a",
+      "fontSize": "18px"
+    },
+    "light": {
+      "background": "#fafafb",
+      "primaryColor": "#ffffff",
+      "primaryTextColor": "#0f141b",
+      "primaryBorderColor": "#0a6e9b",
+      "lineColor": "#0a6e9b",
+      "secondaryColor": "#f1f4f8",
+      "tertiaryColor": "#fafafb",
+      "clusterBkg": "#fafafb",
+      "clusterBorder": "#d5dae2",
+      "titleColor": "#0a6e9b",
+      "edgeLabelBackground": "#fafafb",
+      "fontSize": "18px"
+    }
+  },
+  "presentation": {
+    "nodeCornerRadius": 14,
+    "groupCornerRadius": 20,
+    "groupTitleSize": 14,
+    "fullTitleSize": 18,
+    "fullDetailSize": 14,
+    "compactTitleSize": 16,
+    "titleWeight": 700,
+    "detailWeight": 500,
+    "darkDetailColor": "#9aa6b8",
+    "lightDetailColor": "#48546a",
+    "canvasCornerRadius": 20
+  }
+}

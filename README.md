@@ -21,30 +21,21 @@ Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · Engl
 
 I connect the user experience with the services, AI workflows, and operational tools behind it. This diagram summarizes patterns from my work across different projects; it is not the deployment architecture of a single employer.
 
-```mermaid
-flowchart TB
-    UX["Web · Mobile · Backoffice"]
-    API["APIs & BFFs<br/>Contracts · Access control"]
-    AI["Agent systems<br/>Orchestration · RAG / GraphRAG"]
-    SERVICES["Domain services<br/>Business rules · Integrations"]
-    CONTEXT["AI context & memory<br/>Vector search · Knowledge graphs"]
-    DATA["Data & external providers<br/>Databases · Events · Fintech"]
-    OPS["Production delivery<br/>CI/CD · Observability · Evaluation"]
-    UX --> API
-    API --> AI
-    API --> SERVICES
-    AI --> CONTEXT
-    AI --> SERVICES
-    SERVICES --> DATA
-    CONTEXT -.-> OPS
-    DATA -.-> OPS
-    classDef experience fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e;
-    classDef application fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
-    classDef foundation fill:#ede9fe,stroke:#7c3aed,color:#4c1d95;
-    class UX experience;
-    class API,AI,SERVICES application;
-    class CONTEXT,DATA,OPS foundation;
-```
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/product-architecture-compact-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/product-architecture-compact-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/product-architecture-dark.svg">
+  <img alt="Product experience connects web, mobile, and backoffice to APIs, AI agents, and domain services. Vector search, knowledge graphs, databases, and providers support the system; delivery includes CI/CD, observability, and evaluation." src="assets/product-architecture-light.svg" width="900">
+</picture>
+
+<details>
+<summary>Diagram overview and source</summary>
+
+Web, mobile, and backoffice connect to APIs and BFFs. APIs route to agent systems and domain services. Agents use vector search and knowledge graphs; domain services connect databases, events, and fintech providers. CI/CD, observability, and evaluations support production delivery. The compact view groups these same capabilities into four layers.
+
+[Full diagram](assets/product-architecture-dark.svg) · [Mermaid source](assets/product-architecture.mmd)
+
+</details>
 
 **Quality throughout the flow:** user-centered design, clear domain boundaries, performance measured on comparable workloads, automated tests, agent evaluations, and security guardrails.
 
