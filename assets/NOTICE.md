@@ -8,6 +8,10 @@ Its artwork, colors, and proportions are preserved inside a locally authored bad
 
 Other README badges are served by [Shields.io](https://shields.io/) using its available Simple Icons logos and brand colors. Explicit brand colors prevent white fallback glyphs from disappearing on light badges; light blue marks use a dark background. They are not vendored here. The OpenTelemetry mark is credited to the OpenTelemetry project / CNCF, from [CNCF brand resources](https://cncf-branding.netlify.app/projects/opentelemetry/), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), as recorded by Simple Icons. The badge displays its monochrome glyph in black.
 
+`aws.svg` embeds the unmodified AWS original wordmark from the same pinned Devicon revision inside a locally authored badge. [Original source](https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/amazonwebservices/amazonwebservices-original-wordmark.svg). The original artwork colors and proportions are preserved.
+
+OpenAI API and Agno use text badges because their logos are not assumed to be available from the Shields.io Simple Icons catalog.
+
 ## Devicon license
 
 The MIT License (MIT)
