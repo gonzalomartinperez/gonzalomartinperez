@@ -57,7 +57,7 @@ appropriate black/white presentation; colored marks retain the reviewed brand co
 | `prometheus.svg` | [Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) | `ce2dabb987c2e8625a7c4a7ef13ff0fc2a46da67070fe1f9066002c4ad48e355` |
 | `grafana.svg` | [Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana) | `b6d11cbb09821f2b36cddd1456f3816e2e8ed082ac5c2b30ea7eb1386af34f5a` |
 | `coolify.svg` | [Coolify](https://img.shields.io/badge/Coolify-F4F5F7?style=flat-square&logo=coolify&logoColor=6B16ED) | `a6c69bb1b945a1ea7d7e13295f7a50d195d8eeb27cb265eb41b0e60006454362` |
-| `nginx.svg` | [NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) | `cc049766c55e7743d58f6ffbb2736a36ce797d444f2dc90690b7046389307685` |
+| `nginx.svg` | [NGINX](https://img.shields.io/badge/NGINX-F4F5F7?style=flat-square&logo=nginx&logoColor=009639) | `f0d5696dfe0ab5541833df1fbb9e833b2db833839fb639dfc7c06dc6d4ab2766` |
 | `traefik.svg` | [Traefik](https://img.shields.io/badge/Traefik-F4F5F7?style=flat-square&logo=traefikproxy&logoColor=24A1C1) | `9394383ee87fa9e3d2cf807123c80b3945dd92dafa9e5d5a5b98d35fe275b685` |
 | `caddy.svg` | [Caddy](https://img.shields.io/badge/Caddy-F4F5F7?style=flat-square&logo=caddy&logoColor=1F88C0) | `e9a8afd48106af6dc01aac271aca01d6c5ee749caf05761b6ee0a43b9affb992` |
 
