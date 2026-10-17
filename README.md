@@ -47,27 +47,27 @@ A selection from my professional work, projects, and broader hands-on experience
 
 **AI & agents**
 
-![LangChain](https://img.shields.io/badge/LangChain-20232A?style=flat-square&logo=langchain) ![LangGraph](https://img.shields.io/badge/LangGraph-20232A?style=flat-square&logo=langgraph) ![Neo4j](https://img.shields.io/badge/Neo4j-F4F5F7?style=flat-square&logo=neo4j) ![MCP](https://img.shields.io/badge/MCP-F4F5F7?style=flat-square&logo=modelcontextprotocol&logoColor=000000) ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-F4F5F7?style=flat-square&logoColor=000000) ![Agno](https://img.shields.io/badge/Agno-2563EB?style=flat-square)
+![LangChain](assets/toolkit/langchain.svg) ![LangGraph](assets/toolkit/langgraph.svg) ![Neo4j](assets/toolkit/neo4j.svg) ![MCP](assets/toolkit/mcp.svg) ![OpenAI API](assets/toolkit/openai-api.svg) ![Agno](assets/toolkit/agno.svg)
 
 **Languages & backend**
 
-![Python](https://img.shields.io/badge/Python-F4F5F7?style=flat-square&logo=python) ![TypeScript](https://img.shields.io/badge/TypeScript-F4F5F7?style=flat-square&logo=typescript) ![Java](assets/java.svg) ![Node.js](https://img.shields.io/badge/Node.js-F4F5F7?style=flat-square&logo=nodedotjs) ![FastAPI](https://img.shields.io/badge/FastAPI-F4F5F7?style=flat-square&logo=fastapi) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-F4F5F7?style=flat-square&logo=springboot) ![NestJS](https://img.shields.io/badge/NestJS-F4F5F7?style=flat-square&logo=nestjs&logoColor=E0234E) ![Laravel](https://img.shields.io/badge/Laravel-F4F5F7?style=flat-square&logo=laravel) ![Solidity](https://img.shields.io/badge/Solidity-F4F5F7?style=flat-square&logo=solidity&logoColor=363636)
+![Python](assets/toolkit/python.svg) ![TypeScript](assets/toolkit/typescript.svg) ![Java](assets/java.svg) ![Node.js](assets/toolkit/node-js.svg) ![FastAPI](assets/toolkit/fastapi.svg) ![Spring Boot](assets/toolkit/spring-boot.svg) ![NestJS](assets/toolkit/nestjs.svg) ![Laravel](assets/toolkit/laravel.svg) ![Solidity](assets/toolkit/solidity.svg)
 
 **Web & mobile**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react) ![Next.js](https://img.shields.io/badge/Next.js-F4F5F7?style=flat-square&logo=nextdotjs&logoColor=000000) ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react) ![Kotlin](https://img.shields.io/badge/Kotlin-F4F5F7?style=flat-square&logo=kotlin) ![Swift](https://img.shields.io/badge/Swift-F4F5F7?style=flat-square&logo=swift)
+![React](assets/toolkit/react.svg) ![Next.js](assets/toolkit/next-js.svg) ![React Native](assets/toolkit/react-native.svg) ![Kotlin](assets/toolkit/kotlin.svg) ![Swift](assets/toolkit/swift.svg)
 
 **Data**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-F4F5F7?style=flat-square&logo=postgresql) ![pgvector](https://img.shields.io/badge/pgvector-F4F5F7?style=flat-square&logo=postgresql) ![MongoDB](https://img.shields.io/badge/MongoDB-F4F5F7?style=flat-square&logo=mongodb) ![MySQL](https://img.shields.io/badge/MySQL-F4F5F7?style=flat-square&logo=mysql) ![Redis](https://img.shields.io/badge/Redis-F4F5F7?style=flat-square&logo=redis)
+![PostgreSQL + pgvector](assets/toolkit/postgresql-pgvector.svg) ![MongoDB](assets/toolkit/mongodb.svg) ![MySQL](assets/toolkit/mysql.svg) ![Redis](assets/toolkit/redis.svg)
 
 **Cloud, delivery & observability**
 
-![AWS](assets/aws.svg) ![Docker](https://img.shields.io/badge/Docker-F4F5F7?style=flat-square&logo=docker) ![Kubernetes](https://img.shields.io/badge/Kubernetes-F4F5F7?style=flat-square&logo=kubernetes) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-F4F5F7?style=flat-square&logo=digitalocean) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-F4F5F7?style=flat-square&logo=githubactions) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F4F5F7?style=flat-square&logo=opentelemetry&logoColor=000000) ![Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) ![Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana)
+![AWS](assets/aws.svg) ![Docker](assets/toolkit/docker.svg) ![Kubernetes](assets/toolkit/kubernetes.svg) ![DigitalOcean](assets/toolkit/digitalocean.svg) ![GitHub Actions](assets/toolkit/github-actions.svg) ![OpenTelemetry](assets/toolkit/opentelemetry.svg) ![Prometheus](assets/toolkit/prometheus.svg) ![Grafana](assets/toolkit/grafana.svg)
 
 **Application delivery & reverse proxies**
 
-![Coolify](https://img.shields.io/badge/Coolify-F4F5F7?style=flat-square&logo=coolify&logoColor=6B16ED) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) ![Traefik](https://img.shields.io/badge/Traefik-F4F5F7?style=flat-square&logo=traefikproxy&logoColor=24A1C1) ![Caddy](https://img.shields.io/badge/Caddy-F4F5F7?style=flat-square&logo=caddy&logoColor=1F88C0)
+![Coolify](assets/toolkit/coolify.svg) ![NGINX](assets/toolkit/nginx.svg) ![Traefik](assets/toolkit/traefik.svg) ![Caddy](assets/toolkit/caddy.svg)
 
 **Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings, chunking, and reranking; AI testing, evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
 
