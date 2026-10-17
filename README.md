@@ -25,7 +25,7 @@ I connect the user experience with the services, AI workflows, and operational t
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/product-architecture-compact-dark.svg">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/product-architecture-compact-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/product-architecture-dark.svg">
-  <img alt="Product experience connects web, mobile, and backoffice to APIs, AI agents, and domain services. Vector search, knowledge graphs, databases, and providers support the system; delivery includes CI/CD, observability, and evaluation." src="assets/product-architecture-light.svg" width="900">
+  <img alt="Product experience connects web, mobile, and backoffice to APIs, AI agents, and domain services. Vector search, knowledge graphs, databases, and providers support the system; delivery includes CI/CD, observability, and evaluation." src="assets/product-architecture-light.svg" width="640">
 </picture>
 
 <details>
@@ -33,7 +33,7 @@ I connect the user experience with the services, AI workflows, and operational t
 
 Web, mobile, and backoffice connect to APIs and BFFs. APIs route to agent systems and domain services. Agents use vector search and knowledge graphs; domain services connect databases, events, and fintech providers. CI/CD, observability, and evaluations support production delivery. The compact view groups these same capabilities into four layers.
 
-[Full diagram](assets/product-architecture-dark.svg) · [Mermaid source](assets/product-architecture.mmd)
+[Full-size light](assets/product-architecture-light.svg) · [Full-size dark](assets/product-architecture-dark.svg) · [Mermaid source](assets/product-architecture.mmd) · [Diagram guide](assets/DIAGRAMS.md)
 
 </details>
 
