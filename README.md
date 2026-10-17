@@ -12,8 +12,8 @@ Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · Engl
 
 ## Selected work
 
-- **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Built production AI agents with Neo4j GraphRAG: optimized flows achieved **at least 2× faster response times, verified through load testing**, while removing redundant calls reduced token usage by **an estimated 30% in affected queries**. Reduced comparable vault, market, and perpetual query times **from seconds to milliseconds** using parallel calls, prefetching, and Redis caching.
-- **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to event-driven ingestion of **20M+ historical promotions in production** across Python, Java, and Node.js services. Built a merchant-facing GraphRAG assistant with evaluation and data-leakage guardrails; worked with PostgreSQL and MongoDB.
+- **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Built production AI agents with Neo4j GraphRAG: optimized flows achieved **at least 2× faster response times, verified through load testing**, while removing redundant calls reduced token usage by **an estimated 30% in affected queries**. Reduced comparable vault, market, and perpetual query times **from seconds to milliseconds** using parallel calls, prefetching, and Redis caching. Used LangSmith for agent tracing and evaluation.
+- **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to event-driven ingestion of **20M+ historical promotions in production** across Python, Java, and Node.js services. Built a merchant-facing GraphRAG assistant with LangSmith tracing and evaluation, plus data-leakage guardrails; worked with PostgreSQL and MongoDB.
 - **[Cooperativa Obrera](https://gonzalomartinperez.com/work#cooperativa-obrera)** — Designed and built a permissions backoffice integrating **10+ enterprise systems**, turning a roughly **10-minute manual lookup into an automated workflow taking under 10 seconds**.
 - **[Filomena](https://gonzalomartinperez.com/work/filomena)** — Principal author and contributor in a **three-person team** building an exam platform used by **five Argentine national institutions**. Led architecture, backend, frontend, and infrastructure; the project completed my Information Systems Engineering degree at Universidad Nacional del Sur.
 
@@ -47,7 +47,7 @@ A selection from my professional work, projects, and broader hands-on experience
 
 **AI & agents**
 
-![LangChain](assets/toolkit/langchain.svg) ![LangGraph](assets/toolkit/langgraph.svg) ![Neo4j](assets/toolkit/neo4j.svg) ![MCP](assets/toolkit/mcp.svg) ![OpenAI API](assets/toolkit/openai-api.svg) ![Agno](assets/toolkit/agno.svg)
+![LangChain](assets/toolkit/langchain.svg) ![LangGraph](assets/toolkit/langgraph.svg) ![LangSmith](assets/toolkit/langsmith.svg) ![Neo4j](assets/toolkit/neo4j.svg) ![MCP](assets/toolkit/mcp.svg) ![OpenAI API](assets/toolkit/openai-api.svg) ![Agno](assets/toolkit/agno.svg)
 
 **Languages & backend**
 
@@ -69,7 +69,7 @@ A selection from my professional work, projects, and broader hands-on experience
 
 ![Coolify](assets/toolkit/coolify.svg) ![NGINX](assets/toolkit/nginx.svg) ![Traefik](assets/toolkit/traefik.svg) ![Caddy](assets/toolkit/caddy.svg)
 
-**Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings, chunking, and reranking; AI testing, evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
+**Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings, chunking, and reranking; AI testing, LangSmith tracing and evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
 
 **Experience scope:** Solidity reflects limited hands-on work at Rampy. Infrastructure work includes DigitalOcean deployments; AWS and Kubernetes experience centers on application development, integration, and diagnosis.
 
