@@ -5,6 +5,12 @@ application runtime, package installation or deployment pipeline. Feedback about
 broken links, readability and accessibility is welcome; changes are reviewed
 manually through pull requests targeting `main`.
 
+Keep `main` as the default branch and the published profile source. Maintain
+`develop` as a synchronized checkpoint of the final approved `main` commit;
+documentation task pull requests still target `main`. After integration, advance
+`develop` to that approved commit without introducing a separate release pipeline.
+Remove integrated task branches when safe, while preserving unmerged work.
+
 ## Content and evidence
 
 - Use natural US English and keep the introduction focused on software, AI and
