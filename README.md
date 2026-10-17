@@ -21,12 +21,14 @@ Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · Engl
 
 I connect the user experience with the services, AI workflows, and operational tools behind it. This diagram summarizes patterns from my work across different projects; it is not the deployment architecture of a single employer.
 
+<p align="center">
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/product-architecture-compact-dark.svg">
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/product-architecture-compact-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/product-architecture-dark.svg">
   <img alt="Product experience connects web, mobile, and backoffice to APIs, AI agents, and domain services. Vector search, knowledge graphs, databases, and providers support the system; delivery includes CI/CD, observability, and evaluation." src="assets/product-architecture-light.svg" width="640">
 </picture>
+</p>
 
 <details>
 <summary>Diagram overview and source</summary>
