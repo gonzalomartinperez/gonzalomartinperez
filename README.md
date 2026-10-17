@@ -2,7 +2,7 @@
 
 ### Software Engineer | AI Engineer | Product Engineer
 
-I build AI agents, distributed backends, and web and mobile products—from understanding the problem to shipping and operating the solution. My work connects **applied AI with end-to-end product engineering**: useful interfaces, maintainable architecture, measurable performance, testing, observability, and security.
+I build production AI systems and the backend, web, and mobile experiences around them—from understanding the user’s problem to deployment and operation. My work connects **applied AI with end-to-end product engineering**: useful interfaces, maintainable architecture, measurable performance, testing, observability, and security.
 
 Currently an **AI Engineer at [Rampy](https://getrampy.com/)**, I work directly with three founders on production AI, fintech, and blockchain features. My experience also spans enterprise integrations at [Teamcubation](https://teamcubation.com/) / Payway and [Cooperativa Obrera](https://www.cooperativaobrera.coop/), institutional software, and independent digital products.
 
@@ -63,13 +63,17 @@ A selection from my professional work, projects, and broader hands-on experience
 
 **Cloud, delivery & observability**
 
-![AWS](assets/aws.svg) ![Docker](https://img.shields.io/badge/Docker-F4F5F7?style=flat-square&logo=docker) ![Kubernetes](https://img.shields.io/badge/Kubernetes-F4F5F7?style=flat-square&logo=kubernetes) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-F4F5F7?style=flat-square&logo=digitalocean) ![Coolify](https://img.shields.io/badge/Coolify-F4F5F7?style=flat-square&logo=coolify&logoColor=6B16ED) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-F4F5F7?style=flat-square&logo=githubactions) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F4F5F7?style=flat-square&logo=opentelemetry&logoColor=000000) ![Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) ![Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana)
+![AWS](assets/aws.svg) ![Docker](https://img.shields.io/badge/Docker-F4F5F7?style=flat-square&logo=docker) ![Kubernetes](https://img.shields.io/badge/Kubernetes-F4F5F7?style=flat-square&logo=kubernetes) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-F4F5F7?style=flat-square&logo=digitalocean) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-F4F5F7?style=flat-square&logo=githubactions) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-F4F5F7?style=flat-square&logo=opentelemetry&logoColor=000000) ![Prometheus](https://img.shields.io/badge/Prometheus-F4F5F7?style=flat-square&logo=prometheus) ![Grafana](https://img.shields.io/badge/Grafana-F4F5F7?style=flat-square&logo=grafana)
 
-**Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings and chunking; AI testing, evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
+**Application delivery & reverse proxies**
+
+![Coolify](https://img.shields.io/badge/Coolify-F4F5F7?style=flat-square&logo=coolify&logoColor=6B16ED) ![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white) ![Traefik](https://img.shields.io/badge/Traefik-F4F5F7?style=flat-square&logo=traefikproxy&logoColor=24A1C1) ![Caddy](https://img.shields.io/badge/Caddy-F4F5F7?style=flat-square&logo=caddy&logoColor=1F88C0)
+
+**Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings, chunking, and reranking; AI testing, evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
 
 **Experience scope:** Solidity reflects limited hands-on work at Rampy. Infrastructure work includes DigitalOcean deployments; AWS and Kubernetes experience centers on application development, integration, and diagnosis.
 
-**Production engineering:** Hexagonal, layered, and event-driven architecture; REST APIs and BFFs; design systems; SQL tuning; AWS Lambda, S3, SQS, and API Gateway; CI/CD, access control, and end-to-end encryption. My broader infrastructure experience also includes Coolify and reverse proxies.
+**Production engineering:** Hexagonal, layered, and event-driven architecture; REST APIs and BFFs; design systems; SQL tuning; AWS Lambda, S3, SQS, and API Gateway; CI/CD, access control, and end-to-end encryption. My broader infrastructure experience includes Coolify for deployments and knowledge of NGINX, Traefik, and Caddy for web serving and reverse proxying.
 
 **Fintech integrations:** Morpho, Aave, Compound, Hyperliquid, LI.FI, Privy, and Stripe—across product interfaces, backend services, wallets, and transaction flows.
 
