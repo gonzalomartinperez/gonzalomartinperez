@@ -115,11 +115,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Product architecture diagrams
 
-The product architecture artwork is an original conceptual summary of patterns across Gonzalo's projects, not a deployment diagram for any employer. The SVGs are generated locally with [Mermaid 10.9.3](https://github.com/mermaid-js/mermaid/tree/v10.9.3), distributed under the [MIT license](https://github.com/mermaid-js/mermaid/blob/v10.9.3/LICENSE). No employer diagrams or private implementation materials are embedded.
+The four product architecture SVGs are original, curated first-party artwork. They
+summarize conceptual patterns across Gonzalo's projects, not the deployment of an
+employer or evidence that a particular integration is active. No employer diagrams
+or private implementation material are embedded.
 
-- `product-architecture.mmd`: full seven-node source with three visual layers.
-- `product-architecture-compact.mmd`: the same capabilities grouped into four compact layers for narrow screens.
-- `product-architecture.config.json`: renderer options and portfolio-based dark/light colors.
-- `product-architecture-{dark,light}.svg` and `product-architecture-compact-{dark,light}.svg`: reviewed static vector outputs.
+The `.mmd` files remain editable semantic sources. Earlier SVGs were generated with
+Mermaid 10.9.3; the current publication assets were replaced with self-contained,
+hand-editable SVG on 2026-10-17. They are not byte-for-byte Mermaid output and embed
+no Mermaid code or external artwork. The graph's seven nodes and eight edges, and
+the compact view's four groups and three edges, are preserved.
 
-Rendering uses strict Mermaid security, SVG text labels (`htmlLabels: false`), Arial/Helvetica fallback fonts, and the recorded spacing/curve settings. Generated node corners are rounded to 14 px and group/canvas corners to 20 px. Titles use weight 700 and details weight 500; full-view node titles are 18 px with 14 px secondary details, compact titles are 16 px. Layer headings are 14 px with background plates to keep connectors from crossing their text. These presentation settings are recorded in the config. Outputs include a title and description and contain no scripts, `foreignObject`, external resources, or interactive handlers. The README uses [GitHub-supported picture/media theme selection](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images); a static light image and a text overview provide fallbacks.
+- `product-architecture.mmd`: complete semantic source.
+- `product-architecture-compact.mmd`: the same capabilities in four compact groups.
+- `product-architecture.config.json`: shared palette, typography and graph inventory.
+- `product-architecture-{light,dark}.svg`: 640 px-wide full artwork.
+- `product-architecture-compact-{light,dark}.svg`: 640 px-wide compact artwork.
+
+[The diagram guide](DIAGRAMS.md) records the visual standard, semantics and review
+procedure. Both themes preserve identical geometry and wording. They use system
+fonts, 25 px card titles, 20 px descriptions and explicit line breaks. Each asset
+has a title and description; no scripts, `foreignObject`, fonts, remote references
+or interactive handlers are embedded. README picture/media selection provides
+compact and theme variants, plus a static light fallback and nearby prose.
