@@ -87,6 +87,20 @@ there is no tracing, cropping, recoloring, substitute icon or remote reference.
 Agno retains its trademark rights. No separate open-content license for the mark
 is asserted; it identifies confirmed framework experience without implying endorsement.
 
+### LangSmith
+
+`toolkit/langsmith.svg` embeds the unmodified 63 × 63 px black symbol from the
+[official LangChain brand assets](https://www.langchain.com/brand-assets),
+[exact published SVG](https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a9936e596131f0a19b2c18d_Clip%20path%20group.svg),
+reviewed on 2026-10-17. The source SHA-256 is
+`7b59bcb805b0637f25fb36f1c6638ce4e850758e17e5930e6906304dfa70c99f`.
+Its paths, `#030710` color, proportions, and internal mask are preserved inside a
+14 × 14 px slot in a locally authored 20 px-high neutral badge. The label is
+ordinary badge text, not a reconstructed wordmark. The official brand page permits
+documentation and community use subject to its usage guidelines; no separate
+open-content license is asserted. LangChain retains its trademark rights, and
+this badge identifies confirmed LangSmith experience without implying endorsement.
+
 ## Devicon license
 
 The MIT License (MIT)
