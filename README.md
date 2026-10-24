@@ -27,6 +27,8 @@ Remote from Bahía Blanca, Argentina (UTC-3) · Spanish (native) · English (pro
 
 ## How I build AI products
 
+Good software engineering is what turns an AI demo into a product people can trust. That shapes how I work:
+
 1. **Evals first.** Nothing ships until it passes the eval suite, however good the demo looks.
 2. **Grounded answers.** Retrieval and tools over guesses, and a clear "no" for questions outside the product's scope.
 3. **Latency and cost are product metrics.** Tokens and response time get tracked like any other regression.
