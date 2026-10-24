@@ -1,25 +1,38 @@
-# Gonzalo Martin Perez
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero/github-hero-dark.png">
+  <img alt="Gonzalo Martin Perez. AI Engineer, Software Engineer and Product Engineer. I build LLM agents for production, and the evals that show they work. 90%+ on a 3,000+ case eval suite in English, Spanish and Portuguese; 95%+ GraphRAG eval pass rate; 20M+ promotions ingested." src="assets/hero/github-hero-light.png" width="100%">
+</picture>
+</p>
 
-### Software Engineer | AI Engineer | Product Engineer
+I build LLM agents for production, and the evals that show they work. Right now I'm the only engineer at [Rampy](https://getrampy.com/), an early-stage US fintech, where I own the multilingual AI assistant and the product around it: agents, evals, backend, web and the React Native app.
 
-I build production AI systems and the backend, web, and mobile experiences around them—from understanding the user’s problem to deployment and operation. My work connects **applied AI with end-to-end product engineering**: useful interfaces, maintainable architecture, measurable performance, testing, observability, and security.
+**[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [CV (EN)](https://gonzalomartinperez.com/cv) · [CV (ES)](https://gonzalomartinperez.com/es/cv) · [Email](mailto:gonzalomartinperez2002@gmail.com)**
 
-Currently an **AI Engineer at [Rampy](https://getrampy.com/)**, I work directly with three founders on production AI, fintech, and blockchain features. My experience also spans enterprise integrations at [Teamcubation](https://teamcubation.com/) / Payway and [Cooperativa Obrera](https://www.cooperativaobrera.coop/), institutional software, and independent digital products.
-
-**[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [English CV](https://gonzalomartinperez.com/cv) · [CV en español](https://gonzalomartinperez.com/es/cv)**
-
-Bahía Blanca, Argentina · **100% remote (UTC−3)** · Spanish: native · English: professional working proficiency (B2)
+Remote from Bahía Blanca, Argentina (UTC-3) · Spanish (native) · English (professional working proficiency)
 
 ## Selected work
 
-- **[Rampy](https://gonzalomartinperez.com/work#rampy)** — Built production AI agents with Neo4j GraphRAG: optimized flows achieved **at least 2× faster response times, verified through load testing**, while removing redundant calls reduced token usage by **an estimated 30% in affected queries**. Reduced comparable vault, market, and perpetual query times **from seconds to milliseconds** using parallel calls, prefetching, and Redis caching. Used LangSmith for agent tracing and evaluation.
-- **[Teamcubation / Payway](https://gonzalomartinperez.com/work#teamcubation)** — Contributed to event-driven ingestion of **20M+ historical promotions in production** across Python, Java, and Node.js services. Built a merchant-facing GraphRAG assistant with LangSmith tracing and evaluation, plus data-leakage guardrails; worked with PostgreSQL and MongoDB.
-- **[Cooperativa Obrera](https://gonzalomartinperez.com/work#cooperativa-obrera)** — Designed and built a permissions backoffice integrating **10+ enterprise systems**, turning a roughly **10-minute manual lookup into an automated workflow taking under 10 seconds**.
-- **[Filomena](https://gonzalomartinperez.com/work/filomena)** — Principal author and contributor in a **three-person team** building an exam platform used by **five Argentine national institutions**. Led architecture, backend, frontend, and infrastructure; the project completed my Information Systems Engineering degree at Universidad Nacional del Sur.
+- **[Rampy](https://gonzalomartinperez.com/work#rampy)** · AI Engineer, 2026–present. A multilingual assistant (English, Spanish, Portuguese) on a multi-agent LangGraph graph with Claude, gated by an eval suite of 1,000+ scenarios replicated in three languages and graded in LangSmith by a human-validated LLM-as-a-judge. The agents pass **90%+**, and respond **2× faster with 40% fewer tokens**. Answers render as native UI in the app, and users confirm every transaction in their own wallet. Around the agents: trading across **200+ Hyperliquid markets**, swaps across **100+ tokens**, yield vaults and the company's fee model.
+- **[Payway, via Teamcubation](https://gonzalomartinperez.com/work#teamcubation)** · Software Engineer, 2025–2026. A GraphRAG assistant for a merchant platform serving 350,000+ merchants in 13 countries: **95%+ on a 500+ case eval suite**, with guardrails against off-topic questions and data leaks. Event-driven ingestion of **20M+ promotions** into production.
+- **[Cooperativa Obrera](https://gonzalomartinperez.com/work#cooperativa-obrera)** · Software Engineer, 2024–2025. A permissions back office connecting **10+ internal systems**; a 10-minute manual lookup now takes under 10 seconds.
+- **[Filomena](https://gonzalomartinperez.com/work/filomena)** · Capstone project, 2025. An exam platform used in production by **five national institutions in Argentina**, with 1,000+ concurrent users. Graded 10/10.
 
-## From product needs to production systems
+## Public code
 
-I connect the user experience with the services, AI workflows, and operational tools behind it. This diagram summarizes patterns from my work across different projects; it is not the deployment architecture of a single employer.
+- **[portfolio-assistant-api](https://github.com/gonzalomartinperez/portfolio-assistant-api)** · The assistant behind my portfolio: FastAPI and LangGraph, hybrid retrieval with GraphRAG, cited answers streamed over SSE and cost limits. Evaluated with a 1,000-question bilingual bank, adversarial cases and 800+ tests. Implemented and evaluated; not deployed yet.
+- **Pequeverso, a client case:** the [store](https://github.com/gonzalomartinperez/pequeverso) (Next.js, Hotmart checkout, Meta Pixel and Conversions API), its [back office](https://github.com/gonzalomartinperez/pequeverso-backoffice) (OAuth sign-in, invite-only roles, operations dashboard) and its [AI shopping assistant](https://github.com/gonzalomartinperez/pequeverso-assistant-api) (GraphRAG on LangGraph, grounded in the catalog, with server-validated prices and links and a monthly spend cap).
+- **[portfolio](https://github.com/gonzalomartinperez/portfolio)** · My bilingual Next.js site, with an enforced architecture boundary check.
+- **[filomena-backend](https://github.com/gonzalomartinperez/filomena-backend) / [filomena-frontend](https://github.com/gonzalomartinperez/filomena-frontend)** · The production Laravel API and Next.js front end of Filomena.
+
+## How I build AI products
+
+Good software engineering is what turns an AI demo into a product people can trust. That shapes how I work:
+
+1. **Evals first.** Nothing ships until it passes the eval suite, however good the demo looks.
+2. **Grounded answers.** Retrieval and tools over guesses, and a clear "no" for questions outside the product's scope.
+3. **Latency and cost are product metrics.** Tokens and response time get tracked like any other regression.
+4. **The agent is one part of the product.** The API, the UI contract and the operations around it matter just as much.
 
 <p align="center">
 <picture>
@@ -39,48 +52,11 @@ Web, mobile, and backoffice connect to APIs and BFFs. APIs route to agent system
 
 </details>
 
-**Quality throughout the flow:** user-centered design, clear domain boundaries, performance measured on comparable workloads, automated tests, agent evaluations, and security guardrails.
+## Toolkit
 
-[See the project-specific architectures and outcomes](https://gonzalomartinperez.com/work)
+**AI:** LangGraph · LangChain · LangSmith · Claude API · OpenAI API · MCP · RAG and GraphRAG · Neo4j · pgvector\
+**Backend:** Python · FastAPI · TypeScript · Node.js · NestJS · Java · Spring Boot\
+**Frontend and mobile:** React · Next.js · React Native\
+**Data and infrastructure:** PostgreSQL · Redis · AWS · Docker · Kubernetes · GitHub Actions · OpenTelemetry
 
-## Engineering toolkit
-
-A selection from my professional work, projects, and broader hands-on experience. [Explore the full stack and its project evidence](https://gonzalomartinperez.com/stack)
-
-**AI & agents**
-
-![LangChain](assets/toolkit/langchain.svg) ![LangGraph](assets/toolkit/langgraph.svg) ![LangSmith](assets/toolkit/langsmith.svg) ![Neo4j](assets/toolkit/neo4j.svg) ![MCP](assets/toolkit/mcp.svg) ![OpenAI API](assets/toolkit/openai-api.svg) ![Agno](assets/toolkit/agno.svg)
-
-**Languages & backend**
-
-![Python](assets/toolkit/python.svg) ![TypeScript](assets/toolkit/typescript.svg) ![Java](assets/java.svg) ![Node.js](assets/toolkit/node-js.svg) ![FastAPI](assets/toolkit/fastapi.svg) ![Spring Boot](assets/toolkit/spring-boot.svg) ![NestJS](assets/toolkit/nestjs.svg) ![Laravel](assets/toolkit/laravel.svg) ![Solidity](assets/toolkit/solidity.svg)
-
-**Web & mobile**
-
-![React](assets/toolkit/react.svg) ![Next.js](assets/toolkit/next-js.svg) ![React Native](assets/toolkit/react-native.svg) ![Kotlin](assets/toolkit/kotlin.svg) ![Swift](assets/toolkit/swift.svg)
-
-**Data**
-
-![PostgreSQL + pgvector](assets/toolkit/postgresql-pgvector.svg) ![MongoDB](assets/toolkit/mongodb.svg) ![MySQL](assets/toolkit/mysql.svg) ![Redis](assets/toolkit/redis.svg)
-
-**Cloud, delivery & observability**
-
-![AWS](assets/aws.svg) ![Docker](assets/toolkit/docker.svg) ![Kubernetes](assets/toolkit/kubernetes.svg) ![DigitalOcean](assets/toolkit/digitalocean.svg) ![GitHub Actions](assets/toolkit/github-actions.svg) ![OpenTelemetry](assets/toolkit/opentelemetry.svg) ![Prometheus](assets/toolkit/prometheus.svg) ![Grafana](assets/toolkit/grafana.svg)
-
-**Application delivery & reverse proxies**
-
-![Coolify](assets/toolkit/coolify.svg) ![NGINX](assets/toolkit/nginx.svg) ![Traefik](assets/toolkit/traefik.svg) ![Caddy](assets/toolkit/caddy.svg)
-
-**Applied AI:** Generative AI and LLMs; RAG / GraphRAG; context and prompt engineering; embeddings, chunking, and reranking; AI testing, LangSmith tracing and evaluation, and guardrails; fine-tuning and LLMOps. I work with OpenAI API, Claude API, Agno, and pgvector alongside the tools above.
-
-**Experience scope:** Solidity reflects limited hands-on work at Rampy. Infrastructure work includes DigitalOcean deployments; AWS and Kubernetes experience centers on application development, integration, and diagnosis.
-
-**Production engineering:** Hexagonal, layered, and event-driven architecture; REST APIs and BFFs; design systems; SQL tuning; AWS Lambda, S3, SQS, and API Gateway; CI/CD, access control, and end-to-end encryption. My broader infrastructure experience includes Coolify for deployments and knowledge of NGINX, Traefik, and Caddy for web serving and reverse proxying.
-
-**Fintech integrations:** Morpho, Aave, Compound, Hyperliquid, LI.FI, Privy, and Stripe—across product interfaces, backend services, wallets, and transaction flows.
-
-## Let’s build something useful
-
-I’m open to **100% remote software, AI, and product engineering opportunities**, including backend and full-stack roles, and available for interviews.
-
-[Get in touch](https://gonzalomartinperez.com/contact) · [Browse my experience](https://gonzalomartinperez.com/work) · [Portfolio en español](https://gonzalomartinperez.com/es/)
+Open to AI Engineer roles, and to software and product engineering roles, fully remote. [Get in touch](https://gonzalomartinperez.com/contact).
