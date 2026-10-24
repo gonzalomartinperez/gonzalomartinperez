@@ -21,7 +21,7 @@ Remote from Bahía Blanca, Argentina (UTC-3) · Spanish (native) · English (pro
 ## Public code
 
 - **[portfolio-assistant-api](https://github.com/gonzalomartinperez/portfolio-assistant-api)** · The assistant behind my portfolio: FastAPI and LangGraph, hybrid retrieval with GraphRAG, cited answers streamed over SSE and cost limits. Evaluated with a 1,000-question bilingual bank, adversarial cases and 800+ tests. Implemented and evaluated; not deployed yet.
-- **[pequeverso-assistant-api](https://github.com/gonzalomartinperez/pequeverso-assistant-api)** · A commercial GraphRAG shopping assistant grounded in a store catalog, with server-validated prices and links.
+- **Pequeverso, a client case:** the [store](https://github.com/gonzalomartinperez/pequeverso) (Next.js, Hotmart checkout, Meta Pixel and Conversions API), its [back office](https://github.com/gonzalomartinperez/pequeverso-backoffice) (OAuth sign-in, invite-only roles, operations dashboard) and its [AI shopping assistant](https://github.com/gonzalomartinperez/pequeverso-assistant-api) (GraphRAG on LangGraph, grounded in the catalog, with server-validated prices and links and a monthly spend cap).
 - **[portfolio](https://github.com/gonzalomartinperez/portfolio)** · My bilingual Next.js site, with an enforced architecture boundary check.
 - **[filomena-backend](https://github.com/gonzalomartinperez/filomena-backend) / [filomena-frontend](https://github.com/gonzalomartinperez/filomena-frontend)** · The production Laravel API and Next.js front end of Filomena.
 
