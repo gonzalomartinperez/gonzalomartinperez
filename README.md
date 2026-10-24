@@ -5,7 +5,7 @@
 </picture>
 </p>
 
-I build LLM agents for production, and the evals that show they work. Right now I'm the only engineer at [Rampy](https://getrampy.com/), an early-stage US fintech, where I own the multilingual AI assistant and the product around it: agents, evals, backend, web and the React Native app.
+I build LLM agents for production, and the evals that show they work. Right now I own all engineering at [Rampy](https://getrampy.com/), an early-stage fintech and blockchain startup whose non-custodial app opens the world of digital assets to everyday people through a generative interface. That includes the multilingual AI assistant and the product around it: agents, evals, backend, web and the React Native app.
 
 **[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [CV (EN)](https://gonzalomartinperez.com/cv) · [CV (ES)](https://gonzalomartinperez.com/es/cv) · [Email](mailto:gonzalomartinperez2002@gmail.com)**
 
