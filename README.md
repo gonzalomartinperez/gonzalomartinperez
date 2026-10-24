@@ -9,7 +9,7 @@ I build LLM agents for production, and the evals that show they work. Right now 
 
 **[Portfolio](https://gonzalomartinperez.com/) · [LinkedIn](https://www.linkedin.com/in/gonzalo-martin-perez/) · [CV (EN)](https://gonzalomartinperez.com/cv) · [CV (ES)](https://gonzalomartinperez.com/es/cv) · [Email](mailto:gonzalomartinperez2002@gmail.com)**
 
-Remote from Bahía Blanca, Argentina (UTC-3) · Spanish (native) · English (professional working proficiency)
+Remote from Bahía Blanca, Argentina (UTC-3) · Spanish (native) · English (B2)
 
 ## Selected work
 
